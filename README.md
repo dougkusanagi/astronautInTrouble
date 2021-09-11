@@ -4,7 +4,7 @@
 
 <p align="left"> 
     <h2>Controls:</h2><br>
-    <b>Start the Game:</b> Enter or touch in mobile<br>
-    <b>Jump:</b> Space bar or touch in mobile<br>
-    <b>Full Screen:</b> F11 or touch Left top icon
+    <strong>Start the Game:</strong> Enter or touch in mobile<br>
+    <strong>Jump:</strong> Space bar or touch in mobile<br>
+    <strong>Full Screen:</strong> F11 or touch Left top icon
 </p>
