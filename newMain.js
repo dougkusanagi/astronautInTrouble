@@ -319,7 +319,7 @@ function createGame([spritePlayer, spriteR, fullIcon, spriteBg]){
                 return {
                     x: this.pos.x + 25,
                     y: this.pos.y,
-                    w: this.size.x - 25,
+                    w: this.size.x - 50,
                     h: this.size.y,
                 };
             }
@@ -342,15 +342,15 @@ function createGame([spritePlayer, spriteR, fullIcon, spriteBg]){
             if (ROCKET.rocketsList.length !== 0) {
                 switch (codePosY) {
                     case -1:
-                        newPositionX = ROCKET.rocketsList[ROCKET.rocketsList.length - 1].pos.x + R_W + R_B + 33;
+                        newPositionX = ROCKET.rocketsList[ROCKET.rocketsList.length - 1].pos.x + R_W + R_B + 15;
                         break;
 
                     case 0:
-                        newPositionX = ROCKET.rocketsList[ROCKET.rocketsList.length - 1].pos.x + R_W + R_B + 65;
+                        newPositionX = ROCKET.rocketsList[ROCKET.rocketsList.length - 1].pos.x + R_W + R_B + 50;
                         break;
 
                     case 1:
-                        newPositionX = ROCKET.rocketsList[ROCKET.rocketsList.length - 1].pos.x + R_W + R_B + 35;
+                        newPositionX = ROCKET.rocketsList[ROCKET.rocketsList.length - 1].pos.x + R_W + R_B + 20;
                         break;
                 }
             }
@@ -640,7 +640,7 @@ function createGame([spritePlayer, spriteR, fullIcon, spriteBg]){
 
 Promise.all([
     loadImage('./a2.webp'),
-    loadImage('./r5.png'),
+    loadImage('./r6.png'),
     loadImage('./full_comp.svg'),
     loadImage('./bg.webp'),
 ])
