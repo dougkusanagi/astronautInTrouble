@@ -1,6 +1,6 @@
 ﻿# Astronaut in Trouble
 
-<img src="https://github.com/dougkusanagi/astronautInTrouble/blob/main/Prancheta1.png">
+<img src="https://github.com/dougkusanagi/astronautInTrouble/blob/main/screenshot.png">
 
 <p align="left"> 
     <h3>Controls:</h3><br>
